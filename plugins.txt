@@ -2,6 +2,7 @@ scm-api:latest
 git-client:latest
 git:latest
 greenballs:latest
+nested-view:latest
 parameterized-trigger:latest
 jquery:latest	
 build-pipeline-plugin:latest
