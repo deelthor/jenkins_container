@@ -2,6 +2,8 @@ scm-api:latest
 git-client:latest
 git:latest
 greenballs:latest
+parameterized-trigger:latest
+jquery:latest	
 build-pipeline-plugin:latest
 job-dsl:latest
 skip-certificate-check:latest
