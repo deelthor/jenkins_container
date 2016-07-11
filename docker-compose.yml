@@ -2,6 +2,7 @@ version: '2'
 services:
   jenkins:
     build: .
+    image: deelthor/jenkins-build-pipeline
     network_mode: "bridge"
     ports:
       - "8080:8080"
