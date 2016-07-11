@@ -1,6 +1,10 @@
-jenkins:
-  build: .
-  net: host
-  volumes:
-     - "/var/run/docker.sock:/var/run/docker.sock"
-     - "/usr/local/bin/docker:/usr/bin/docker"
+version: '2'
+services:
+  jenkins:
+    build: .
+    network_mode: "bridge"
+    ports:
+      - "8080:8080"
+    volumes:
+       - "/var/run/docker.sock:/var/run/docker.sock"
+       - "/usr/local/bin/docker:/usr/bin/docker"
