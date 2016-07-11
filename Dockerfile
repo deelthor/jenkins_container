@@ -1,6 +1,4 @@
 FROM jenkins:latest
-#ENV JENKINS_OPTS "--httpPort=8083"
-#EXPOSE 8083
 USER root
 RUN apt-get update \
       && apt-get install -y sudo \
